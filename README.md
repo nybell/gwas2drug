@@ -1,8 +1,8 @@
-## gwas2drug ##
+# gwas2drug #
 
 This GitHub repository contains all the data, results, and code used during my master's thesis. For this project we compared 2 drug repurposing methods, transcriptomic signature analysis and drug gene-set analysis. 
 
-# Overview of directories
+## Overview of directories
 
 data-management: Contains R code to format a variety of the data used to match the input requirements for various software tools used (e.g., MetaXcan, MAGMA)
 
