@@ -1,6 +1,6 @@
 ### --- Drug gene-set analysis (DGSA): Parkinson's --- ### 
 
-# DGSA is run with MAGMA
+# DGSA is run with MAGMA: https://ctg.cncr.nl/software/magma
 
 ## ----- FORMAT INPUT DATA ----- ##
 
