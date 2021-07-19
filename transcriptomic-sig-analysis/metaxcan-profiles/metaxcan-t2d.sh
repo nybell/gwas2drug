@@ -1,4 +1,4 @@
-### --- Imputed gene expression signature of T2D using MetaXcan --- ###
+### --- Impute gene expression signature of T2D using MetaXcan --- ###
 
 # NOTE: To download MetaXcan, see here: https://github.com/hakyimlab/MetaXcan
 # MetaXcan tutorial, see here: https://github.com/hakyimlab/MetaXcan/wiki/Tutorial:-GTEx-v8-MASH-models-integration-with-a-Coronary-Artery-Disease-GWAS
