@@ -1,7 +1,6 @@
 ### ----- MAGMA conditional analysis ----- ###
 
 # Run using MAGMA: https://ctg.cncr.nl/software/magma
-#!/bin/bash
 
 ## ----- FORMAT INPUT ----- ##
 
