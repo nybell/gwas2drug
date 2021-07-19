@@ -1,0 +1,34 @@
+#!/bin/bash
+#SBATCH --job-name='SPIA'
+#SBATCH --nodes=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=00-50:00:00
+#SBATCH --output=SPIA_job-%j.o
+#SBATCH --error=SPIA_job-%j.e
+
+echo start of job
+
+cd $TMPDIR
+
+cp /home/nbell/ps4dr/spia/PS4DR_LISA4.R  $TMPDIR 
+cp /home/nbell/ps4dr/spia/input/geneID_v97.RData  $TMPDIR 
+cp /home/nbell/ps4dr/spia/input/pd_multi_spiainput.RData  $TMPDIR 
+cp /home/nbell/ps4dr/spia/input/t2d_multi_spiainput.RData  $TMPDIR 
+cp /home/nbell/ps4dr/spia/input/pd_deg_spiainput.RData  $TMPDIR 
+cp /home/nbell/ps4dr/spia/input/t2d_deg_spiainput.RData $TMPDIR 
+cp /home/nbell/ps4dr/spia/input/lincs_spia_inputV3.RData  $TMPDIR 
+echo "data copied to scratch dir"
+
+module load 2020
+module load R
+Rscript PS4DR_LISA4.R
+echo "SPIA test done"
+
+cp $TMPDIR/lincs_spia_out.RData /home/nbell/ps4dr/spia/output/
+cp $TMPDIR/spia_out_pddegs.RData /home/nbell/ps4dr/spia/output/
+cp $TMPDIR/spia_out_t2ddegs.RData /home/nbell/ps4dr/spia/output/
+cp $TMPDIR/spia_out_pdmul.RData /home/nbell/ps4dr/spia/output/
+cp $TMPDIR/spia_out_t2dmul.RData /home/nbell/ps4dr/spia/output/
+
+echo "content of TMPDIR"
+ls $TMPDIR
