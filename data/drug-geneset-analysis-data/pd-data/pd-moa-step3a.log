@@ -1,0 +1,45 @@
+Welcome to MAGMA v1.09a (mac)
+Using flags:
+	--gene-results pd-step2.genes.raw
+	--set-annot moa_sets_magma.sets
+	--settings gene-info
+	--out pd-moa-step3a
+
+Start time is 15:29:45, Friday 04 Jun 2021
+
+Reading file pd-step2.genes.raw... 
+	18367 genes read from file
+Loading gene-set annotation...
+Reading file moa_sets_magma.sets... 
+	WARNING: gene set acetylcholine-release-enhancer contains no genes defined in genotype data
+	WARNING: gene set interferon-inducer contains no genes defined in genotype data
+	WARNING: gene set toll-like-receptor-agonist contains no genes defined in genotype data
+	245 gene-set definitions read from file
+	found 242 gene sets containing genes defined in genotype data (containing a total of 921 unique genes)
+Preparing variables for analysis...
+	truncating Z-scores 3 points below zero or 6 standard deviations above the mean
+	WARNING: discarding gene set 'androgen-receptor-agonist' from file moa_sets_magma.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'angiotensin-receptor-agonist' from file moa_sets_magma.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'Bruton's-tyrosine-kinase-(BTK)-inhibitor' from file moa_sets_magma.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'CFTR-channel-agonist' from file moa_sets_magma.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'GABA-uptake-inhibitor' from file moa_sets_magma.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'guanylate-cyclase-stimulant' from file moa_sets_magma.sets, variance is too low (set contains only one gene used in analysis)
+	truncating covariate values more than 5 standard deviations from the mean
+	total variables available for analysis: 236 gene sets
+
+Parsing model specifications...
+Inverting gene-gene correlation matrix...
+Performing regression analysis...
+	testing direction: one-sided, positive (sets), two-sided (covar)
+	conditioning on internal variables:
+		gene size, log(gene size)
+		gene density, log(gene density)
+		sample size, log(sample size)
+		inverse mac, log(inverse mac)
+	analysing individual variables
+
+	analysing single-variable models (number of models: 236)
+	writing results to file pd-moa-step3a.gsa.out
+	writing gene information to file pd-moa-step3a.gsa.genes.out
+
+End time is 15:29:59, Friday 04 Jun 2021 (elapsed: 00:00:14)

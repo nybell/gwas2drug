@@ -1,0 +1,40 @@
+Welcome to MAGMA v1.09a (mac)
+Using flags:
+	--gene-results pd-step2.genes.raw
+	--set-annot ind_sets_magma.sets
+	--settings gene-info
+	--out pd-ind-step3a
+
+Start time is 15:32:10, Friday 04 Jun 2021
+
+Reading file pd-step2.genes.raw... 
+	18367 genes read from file
+Loading gene-set annotation...
+Reading file ind_sets_magma.sets... 
+	397 gene-set definitions read from file
+	found 397 gene sets containing genes defined in genotype data (containing a total of 940 unique genes)
+Preparing variables for analysis...
+	truncating Z-scores 3 points below zero or 6 standard deviations above the mean
+	WARNING: discarding gene set 'basal-cell-carcinoma-(BCC)' from file ind_sets_magma.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'cystic-fibrosis' from file ind_sets_magma.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'exercise-induced-bronchoconstriction-(EIB)' from file ind_sets_magma.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'Waldenstrom's-macroglobulinemia-(WM)' from file ind_sets_magma.sets, variance is too low (set contains only one gene used in analysis)
+	truncating covariate values more than 5 standard deviations from the mean
+	total variables available for analysis: 393 gene sets
+
+Parsing model specifications...
+Inverting gene-gene correlation matrix...
+Performing regression analysis...
+	testing direction: one-sided, positive (sets), two-sided (covar)
+	conditioning on internal variables:
+		gene size, log(gene size)
+		gene density, log(gene density)
+		sample size, log(sample size)
+		inverse mac, log(inverse mac)
+	analysing individual variables
+
+	analysing single-variable models (number of models: 393)
+	writing results to file pd-ind-step3a.gsa.out
+	writing gene information to file pd-ind-step3a.gsa.genes.out
+
+End time is 15:32:24, Friday 04 Jun 2021 (elapsed: 00:00:14)
