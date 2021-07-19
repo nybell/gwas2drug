@@ -1,0 +1,65 @@
+Welcome to MAGMA v1.09a (mac)
+Using flags:
+	--gene-results t2d-step2.genes.raw
+	--set-annot conditional.sets
+	--model analyse=file,drug.signif.txt condition=cond_drug
+	--out t2d.drug.step3b
+
+Start time is 21:53:03, Tuesday 29 Jun 2021
+
+Reading file t2d-step2.genes.raw... 
+	18375 genes read from file
+Loading gene-set annotation...
+Reading file conditional.sets... 
+	WARNING: gene set bifemelane contains no genes defined in genotype data
+	WARNING: gene set imiquimod contains no genes defined in genotype data
+	WARNING: gene set isocarboxazid contains no genes defined in genotype data
+	WARNING: gene set linezolid contains no genes defined in genotype data
+	WARNING: gene set moclobemide contains no genes defined in genotype data
+	WARNING: gene set pargyline contains no genes defined in genotype data
+	WARNING: gene set selegiline contains no genes defined in genotype data
+	WARNING: gene set toloxatone contains no genes defined in genotype data
+	650 gene-set definitions read from file
+	found 642 gene sets containing genes defined in genotype data (containing a total of 947 unique genes)
+Preparing variables for analysis...
+	truncating Z-scores 3 points below zero or 6 standard deviations above the mean
+	WARNING: discarding gene set 'azilsartan' from file conditional.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'azilsartan-medoxomil' from file conditional.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'clodronic-acid' from file conditional.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'conivaptan' from file conditional.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'cyproterone-acetate' from file conditional.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'delivert' from file conditional.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'flutamide' from file conditional.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'hydroxychloroquine' from file conditional.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'ibrutinib' from file conditional.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'isosorbide-mononitrate' from file conditional.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'lisinopril' from file conditional.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'moexipril' from file conditional.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'montelukast' from file conditional.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'rasagiline' from file conditional.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'riociguat' from file conditional.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'tolvaptan' from file conditional.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'zafirlukast' from file conditional.sets, variance is too low (set contains only one gene used in analysis)
+	truncating covariate values more than 5 standard deviations from the mean
+	total variables available for analysis: 625 gene sets
+
+Parsing model specifications...
+Inverting gene-gene correlation matrix...
+Performing regression analysis...
+	testing direction: one-sided, positive (sets), two-sided (covar)
+	conditioning on internal variables:
+		gene size, log(gene size)
+		gene density, log(gene density)
+		sample size, log(sample size)
+		inverse mac, log(inverse mac)
+	conditioning on input variables:
+		cond_drug (set)
+	restricting analysis to specified list
+	analysing individual variables
+
+	analysing single-variable models (number of models: 7)
+	writing results to file t2d.drug.step3b.gsa.out
+	writing gene information to file t2d.drug.step3b.gsa.genes.out
+	writing gene analysis results per significant result (after multiple testing correction, at alpha = 0.05) to file t2d.drug.step3b.gsa.sets.genes.out
+
+End time is 21:53:16, Tuesday 29 Jun 2021 (elapsed: 00:00:13)

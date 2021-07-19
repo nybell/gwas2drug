@@ -1,0 +1,5 @@
+insulin-secretagogue
+PPAR-receptor-agonist
+sodium/glucose-cotransporter-inhibitor
+sulfonylurea
+nitric-oxide-synthase-inhibitor

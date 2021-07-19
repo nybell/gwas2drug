@@ -1,0 +1,11 @@
+# TOTAL_GENES = 18375
+# TEST_DIRECTION = one-sided, positive (set), two-sided (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_VARIABLES = cond_drug (set)
+VARIABLE                 TYPE  MODEL  NGENES         BETA     BETA_STD           SE            P
+cond_drug                 SET      1     949    0.0073496    0.0016266     0.036694      0.42063
+diabetes-mellitus         SET      1      31       0.8823      0.03621      0.20163   6.0817e-06
+cond_drug                 SET      2     949     0.018377    0.0040671     0.036439      0.30702
+hyperglycemia             SET      2      16       1.0595     0.031251        0.289   0.00012348
+cond_drug                 SET      3     949     0.021711    0.0048051     0.036343      0.27513
+sleep-cycle-support       SET      3      10        1.319     0.030763      0.36213   0.00013545

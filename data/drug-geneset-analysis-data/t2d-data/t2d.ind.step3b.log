@@ -1,0 +1,129 @@
+Welcome to MAGMA v1.09a (mac)
+Using flags:
+	--gene-results t2d-step2.genes.raw
+	--set-annot ind.sets
+	--model analyse=file,ind.signif.txt condition=cond_drug
+	--out t2d.ind.step3b
+
+Start time is 22:08:54, Tuesday 29 Jun 2021
+
+Reading file t2d-step2.genes.raw... 
+	18375 genes read from file
+Loading gene-set annotation...
+Reading file ind.sets... 
+	WARNING: gene set duchenne-muscular-dystrophy-(DMD) contains no genes defined in genotype data
+	483 gene-set definitions read from file
+	found 482 gene sets containing genes defined in genotype data (containing a total of 949 unique genes)
+Preparing variables for analysis...
+	truncating Z-scores 3 points below zero or 6 standard deviations above the mean
+	WARNING: discarding gene set 'acquired-immunodeficiency-syndrome-(AIDS)' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'acute-coronary-syndrome-(ACS)' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'adrenal-diagnostic-agent' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'anthrax' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'bacterial-septicemia' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'basal-cell-carcinoma-(BCC)' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'bone-and-joint-infections' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'bone-fracture' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'brainstem-glioma' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'chapped-lips' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'chicken-pox' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'chronic-venous-insufficiency-(CVI)' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'contact-dermatitis' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'contrast-agent' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'cystic-fibrosis' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'dandruff' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'diverticular-disease' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'dry-eye-syndrome' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'dyslipidemia' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'dysthymic-disorder' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'ependymoma' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'episcleritis' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'erosive-esophagitis-(EE)' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'Ewing's-sarcoma' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'exercise-induced-bronchoconstriction-(EIB)' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'familial-amyloid-polyneuropathy-(FAP)' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'flea-control' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'fungal-infection' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'gastric-hypersecretion-diagnostic' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'gastroenteritis' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'gastrointestinal-infections' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'Gaucher-disease' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'gender-dysphoria' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'gestational-choriocarcinoma' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'gestational-trophoblastic-disease-(GTD)' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'glioma' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'heavy-leg-syndrome' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'hemophilia' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'heparin-induced-thrombocytopenia-(HIT)' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'hepatic-encephalopathy-(HE)' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'hydatidiform-mole' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'hyperammonemia' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'hypermenorrhea' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'hypocalcemia' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'hypoparathyroidism' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'ischiadynia' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'kidney-stones' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'left-ventricular-systolic-dysfunction-(LVSD)' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'leprosy' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'lice' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'lumbago' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'medulloblastoma' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'metal-toxicity' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'microsporidiosis' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'mydriasis' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'myeloma' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'myeloproliferative-neoplasms' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'myoma' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'oligomenorrhea' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'onychomycosis' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'parathyroid-carcinoma' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'plague' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'polycystic-ovary-syndrom-(PCOS)' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'polymenorrhea' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'precocious-puberty' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'preservative' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'pyelonephritis' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'renal-angiomyolipoma' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'renal-diagnostic-agent' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'renal-toxicity' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'rhabdomyosarcoma' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'ringworm' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'skin-depigmentation' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'skin-ulcer' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'spinocerebellar-ataxia' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'statis-dermatitis' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'subependymal-giant-cell-astrocytoma-(SEGA)' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'sweet-itch' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'thrombocythemia' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'thyroiditis' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'tuberous-sclerosis-complex-(TSC)' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'ulcerative-esophagitis-(UE)' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'urea-cycle-disorders' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'varicella-zoster-virus-(VZV)' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'ventricular-fibrillation-(VF)' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'Waldenstrom's-macroglobulinemia-(WM)' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'Wilson's-disease' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'wound-healing' from file ind.sets, variance is too low (set contains only one gene used in analysis)
+	truncating covariate values more than 5 standard deviations from the mean
+	total variables available for analysis: 394 gene sets
+
+Parsing model specifications...
+Inverting gene-gene correlation matrix...
+Performing regression analysis...
+	testing direction: one-sided, positive (sets), two-sided (covar)
+	conditioning on internal variables:
+		gene size, log(gene size)
+		gene density, log(gene density)
+		sample size, log(sample size)
+		inverse mac, log(inverse mac)
+	conditioning on input variables:
+		cond_drug (set)
+	restricting analysis to specified list
+	analysing individual variables
+
+	analysing single-variable models (number of models: 3)
+	writing results to file t2d.ind.step3b.gsa.out
+	writing gene information to file t2d.ind.step3b.gsa.genes.out
+	writing gene analysis results per significant result (after multiple testing correction, at alpha = 0.05) to file t2d.ind.step3b.gsa.sets.genes.out
+
+End time is 22:09:07, Tuesday 29 Jun 2021 (elapsed: 00:00:13)

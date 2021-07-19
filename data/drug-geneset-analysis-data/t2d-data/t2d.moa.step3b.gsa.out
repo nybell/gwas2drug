@@ -1,0 +1,15 @@
+# TOTAL_GENES = 18375
+# TEST_DIRECTION = one-sided, positive (set), two-sided (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_VARIABLES = cond_drug (set)
+VARIABLE                             TYPE  MODEL  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+cond_drug                             SET      1     949     0.016685    0.0036927     0.036381      0.32326 cond_drug
+insulin-secretagogue                  SET      1      13       1.4448     0.038417      0.32002   3.1906e-06 insulin-secretagogue
+cond_drug                             SET      2     949     0.021711    0.0048051     0.036343      0.27513 cond_drug
+nitric-oxide-synthase-inhibi...       SET      2      10        1.319     0.030763      0.36213   0.00013545 nitric-oxide-synthase-inhibitor
+cond_drug                             SET      3     949     0.024359    0.0053911     0.036257      0.25085 cond_drug
+PPAR-receptor-agonist                 SET      3       5       2.1119     0.034834      0.51874   2.3483e-05 PPAR-receptor-agonist
+cond_drug                             SET      4     949     0.025565     0.005658     0.036213      0.24011 cond_drug
+sodium/glucose-cotransporter...       SET      4       3       3.1205      0.03987      0.64868   7.5911e-07 sodium/glucose-cotransporter-inhibitor
+cond_drug                             SET      5     949     0.016685    0.0036927     0.036381      0.32326 cond_drug
+sulfonylurea                          SET      5      13       1.4448     0.038417      0.32002   3.1906e-06 sulfonylurea

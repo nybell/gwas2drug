@@ -1,0 +1,62 @@
+Welcome to MAGMA v1.09a (mac)
+Using flags:
+	--gene-results t2d-step2.genes.raw
+	--set-annot entrez_drugs.sets
+	--settings gene-info
+	--out t2d-step3a-targ
+
+Start time is 18:42:27, Tuesday 08 Jun 2021
+
+Reading file t2d-step2.genes.raw... 
+	18375 genes read from file
+Loading gene-set annotation...
+Reading file entrez_drugs.sets... 
+	WARNING: gene set bifemelane contains no genes defined in genotype data
+	WARNING: gene set imiquimod contains no genes defined in genotype data
+	WARNING: gene set isocarboxazid contains no genes defined in genotype data
+	WARNING: gene set linezolid contains no genes defined in genotype data
+	WARNING: gene set moclobemide contains no genes defined in genotype data
+	WARNING: gene set pargyline contains no genes defined in genotype data
+	WARNING: gene set selegiline contains no genes defined in genotype data
+	WARNING: gene set toloxatone contains no genes defined in genotype data
+	633 gene-set definitions read from file
+	found 625 gene sets containing genes defined in genotype data (containing a total of 902 unique genes)
+Preparing variables for analysis...
+	truncating Z-scores 3 points below zero or 6 standard deviations above the mean
+	WARNING: discarding gene set 'azilsartan' from file entrez_drugs.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'azilsartan-medoxomil' from file entrez_drugs.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'clodronic-acid' from file entrez_drugs.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'conivaptan' from file entrez_drugs.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'cyproterone-acetate' from file entrez_drugs.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'delivert' from file entrez_drugs.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'flutamide' from file entrez_drugs.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'hydroxychloroquine' from file entrez_drugs.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'ibrutinib' from file entrez_drugs.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'isosorbide-mononitrate' from file entrez_drugs.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'lisinopril' from file entrez_drugs.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'moexipril' from file entrez_drugs.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'montelukast' from file entrez_drugs.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'rasagiline' from file entrez_drugs.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'riociguat' from file entrez_drugs.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'tolvaptan' from file entrez_drugs.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'zafirlukast' from file entrez_drugs.sets, variance is too low (set contains only one gene used in analysis)
+	truncating covariate values more than 5 standard deviations from the mean
+	total variables available for analysis: 608 gene sets
+
+Parsing model specifications...
+Inverting gene-gene correlation matrix...
+Performing regression analysis...
+	testing direction: one-sided, positive (sets), two-sided (covar)
+	conditioning on internal variables:
+		gene size, log(gene size)
+		gene density, log(gene density)
+		sample size, log(sample size)
+		inverse mac, log(inverse mac)
+	analysing individual variables
+
+	analysing single-variable models (number of models: 608)
+	writing results to file t2d-step3a-targ.gsa.out
+	writing gene information to file t2d-step3a-targ.gsa.genes.out
+	writing gene analysis results per significant result (after multiple testing correction, at alpha = 0.05) to file t2d-step3a-targ.gsa.sets.genes.out
+
+End time is 18:42:41, Tuesday 08 Jun 2021 (elapsed: 00:00:14)

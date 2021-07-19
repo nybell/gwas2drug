@@ -1,0 +1,134 @@
+Welcome to MAGMA v1.09a (mac)
+Using flags:
+	--gene-results t2d-step2.genes.raw
+	--set-annot moa.sets
+	--model analyse=file,moa.signif.txt condition=cond_drug
+	--out t2d.moa.step3b
+
+Start time is 22:06:47, Tuesday 29 Jun 2021
+
+Reading file t2d-step2.genes.raw... 
+	18375 genes read from file
+Loading gene-set annotation...
+Reading file moa.sets... 
+	WARNING: gene set acetylcholine-release-enhancer contains no genes defined in genotype data
+	WARNING: gene set androgen-receptor-modulator contains no genes defined in genotype data
+	WARNING: gene set dystrophin-stimulant contains no genes defined in genotype data
+	WARNING: gene set interferon-inducer contains no genes defined in genotype data
+	WARNING: gene set T-cell-inhibitor contains no genes defined in genotype data
+	WARNING: gene set toll-like-receptor-agonist contains no genes defined in genotype data
+	331 gene-set definitions read from file
+	found 325 gene sets containing genes defined in genotype data (containing a total of 949 unique genes)
+Preparing variables for analysis...
+	truncating Z-scores 3 points below zero or 6 standard deviations above the mean
+	WARNING: discarding gene set '3-ketoacyl-CoA-thiolase-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'adrenergic-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'adrenergic-neuron-blocker' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'aldose-reductase-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'androgen-receptor-agonist' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'angiotensin-receptor-agonist' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'anti-inflammatory-agent' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'anti-pneumocystis-agent' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'antibacterial-agent' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'anticancer-agent' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'antifibrinolytic' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'antihistamine' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'antithyroid-agent' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'aromatic-L-amino-acid-decarboxylase-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'aryl-hydrocarbon-receptor-agonist' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'bacterial-antifolate' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'bacterial-DNA-gyrase-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'BCL-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'bradykinin-receptor-antagonist' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'Bruton's-tyrosine-kinase-(BTK)-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'butyrylcholinesterase-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'calcium-channel-activator' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'cAMP-stimulant' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'carbamoyl-phosphate-synthase-activator' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'carnitine-palmitoyltransferase-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'catechol-O-methyltransferase-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'CFTR-channel-agonist' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'CFTR-channel-potentiator' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'chemoreceptor-agonist' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'cytokine-production-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'dihydropteroate-synthetase-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'dihydropyrimidine-dehydrogenase-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'dipeptidyl-peptidase-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'DNA-directed-DNA-polymerase-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'DNA-polymerase-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'DNA-replication-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'DOPA-decarboxylase-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'dopamine-receptor-partial-agonist' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'electrolyte-reabsorption-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'enkephalinase-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'exportin-antagonist' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'fatty-acid-synthase-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'free-radical-scavenger' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'fungal-squalene-epoxidase-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'GABA-uptake-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'gastrin-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'glycosyl-transferase-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'guanylate-cyclase-stimulant' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'hedgehog-pathway-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'immunostimulant' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'interleukin-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'isocitrate-dehydrogenase-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'L-type-calcium-channel-blocker' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'like-(NRF2)-activator' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'lipase-clearing-factor-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'mediator-release-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'melanin-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'methionine-aminopeptidase-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'methyltransferase-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'microsomal-trigylceride-transfer-protein-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'microtubule-stabilizing-agent' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'mucus-protecting-agent' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'neprilysin-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'neurotransmitter-agonist' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'nitric-oxide-donor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'nitric-oxide-scavenger' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'nootropic-agent' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'nuclear-factor-erythroid-derived' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'other-antibiotic' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'other-antifungal' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'oxidizing-agent' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'phospholipase-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'protease-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'purinergic-receptor-antagonist' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'radiopaque-medium' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'renin-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'smoothened-receptor-antagonist' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'STAT-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'tachykinin-antagonist' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'thyrotropin-releasing-hormone-receptor-agonist' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'TP53-activator' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'trace-amine-associated-receptor-agonist' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'transthyretin-amyloid-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'tryptophan-hydroxylase-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'tumor-necrosis-factor-production-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'urease-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'uric-acid-diuretic' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'xanthine-oxidase-inhibitor' from file moa.sets, variance is too low (set contains only one gene used in analysis)
+	truncating covariate values more than 5 standard deviations from the mean
+	total variables available for analysis: 237 gene sets
+
+Parsing model specifications...
+Inverting gene-gene correlation matrix...
+Performing regression analysis...
+	testing direction: one-sided, positive (sets), two-sided (covar)
+	conditioning on internal variables:
+		gene size, log(gene size)
+		gene density, log(gene density)
+		sample size, log(sample size)
+		inverse mac, log(inverse mac)
+	conditioning on input variables:
+		cond_drug (set)
+	restricting analysis to specified list
+	analysing individual variables
+
+	analysing single-variable models (number of models: 5)
+	writing results to file t2d.moa.step3b.gsa.out
+	writing gene information to file t2d.moa.step3b.gsa.genes.out
+	writing gene analysis results per significant result (after multiple testing correction, at alpha = 0.05) to file t2d.moa.step3b.gsa.sets.genes.out
+
+End time is 22:07:01, Tuesday 29 Jun 2021 (elapsed: 00:00:14)

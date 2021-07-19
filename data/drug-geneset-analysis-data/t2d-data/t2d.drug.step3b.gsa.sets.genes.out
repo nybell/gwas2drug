@@ -1,0 +1,66 @@
+# ALPHA = 0.05
+# NUMBER_OF_TESTS = 7
+
+# _SET1_  VARIABLE = bezafibrate (set)
+# _SET1_  MODEL = 1
+# _SET1_  NGENES = 3
+# _SET1_  P-VALUE = 7.39291e-05
+_SET1_   GENE   CHR     START      STOP  NSNPS  NPARAM       N        ZSTAT            P  ZFITTED_BASE  ZRESID_BASE
+_SET1_   5468     3  12328349  12476355    661      81  146248        7.184   4.4627e-16    9.3723e-05        7.184
+_SET1_   5467     6  35309335  35396468    480      59  145487       1.7632    0.0060982    9.3723e-05       1.7631
+_SET1_   5465    22  46545458  46640153    475      84  141909       1.2014     0.020687    9.3723e-05       1.2013
+
+# _SET2_  VARIABLE = flupirtine (set)
+# _SET2_  MODEL = 2
+# _SET2_  NGENES = 3
+# _SET2_  P-VALUE = 1.3422e-05
+_SET2_   GENE   CHR      START       STOP  NSNPS  NPARAM       N        ZSTAT            P  ZFITTED_BASE  ZRESID_BASE
+_SET2_   150     10  112835790  112841165     15       9  148551       2.3816    0.0016051    9.3723e-05       2.3815
+_SET2_   3784    11    2465221    2870840   2543     272  144595        8.114   2.3534e-22    9.3723e-05       8.1139
+_SET2_   3785    20   62031061   62104993    518      67  146057     -0.18185      0.25677    9.3723e-05     -0.18194
+
+# _SET3_  VARIABLE = glipizide (set)
+# _SET3_  MODEL = 3
+# _SET3_  NGENES = 4
+# _SET3_  P-VALUE = 9.7583e-07
+_SET3_   GENE   CHR      START       STOP  NSNPS  NPARAM       N        ZSTAT            P  ZFITTED_BASE  ZRESID_BASE
+_SET3_   3766     1  160006757  160041051    138      50  143450      -1.1251      0.61732    9.3723e-05      -1.1252
+_SET3_   5468     3   12328349   12476355    661      81  146248        7.184   4.4627e-16    9.3723e-05        7.184
+_SET3_   3767    11   17406295   17411878     37      14  145542       6.8401   3.3694e-14     -0.032167       6.8722
+_SET3_   6833    11   17413932   17499449    527      64  146045       3.5204   6.5496e-06    9.3723e-05       3.5203
+
+# _SET4_  VARIABLE = mitiglinide (set)
+# _SET4_  MODEL = 4
+# _SET4_  NGENES = 3
+# _SET4_  P-VALUE = 1.411e-05
+_SET4_   GENE   CHR      START       STOP  NSNPS  NPARAM       N        ZSTAT            P  ZFITTED_BASE  ZRESID_BASE
+_SET4_   3766     1  160006757  160041051    138      50  143450      -1.1251      0.61732    9.3723e-05      -1.1252
+_SET4_   5468     3   12328349   12476355    661      81  146248        7.184   4.4627e-16    9.3723e-05        7.184
+_SET4_   6833    11   17413932   17499449    527      64  146045       3.5204   6.5496e-06    9.3723e-05       3.5203
+
+# _SET5_  VARIABLE = nateglinide (set)
+# _SET5_  MODEL = 5
+# _SET5_  NGENES = 4
+# _SET5_  P-VALUE = 9.7583e-07
+_SET5_   GENE   CHR      START       STOP  NSNPS  NPARAM       N        ZSTAT            P  ZFITTED_BASE  ZRESID_BASE
+_SET5_   3766     1  160006757  160041051    138      50  143450      -1.1251      0.61732    9.3723e-05      -1.1252
+_SET5_   5468     3   12328349   12476355    661      81  146248        7.184   4.4627e-16    9.3723e-05        7.184
+_SET5_   3767    11   17406295   17411878     37      14  145542       6.8401   3.3694e-14     -0.032167       6.8722
+_SET5_   6833    11   17413932   17499449    527      64  146045       3.5204   6.5496e-06    9.3723e-05       3.5203
+
+# _SET6_  VARIABLE = repaglinide (set)
+# _SET6_  MODEL = 6
+# _SET6_  NGENES = 3
+# _SET6_  P-VALUE = 2.6532e-09
+_SET6_   GENE   CHR     START      STOP  NSNPS  NPARAM       N        ZSTAT            P  ZFITTED_BASE  ZRESID_BASE
+_SET6_   5468     3  12328349  12476355    661      81  146248        7.184   4.4627e-16    9.3723e-05        7.184
+_SET6_   3767    11  17406295  17411878     37      14  145542       6.8401   3.3694e-14     -0.032167       6.8722
+_SET6_   6833    11  17413932  17499449    527      64  146045       3.5204   6.5496e-06    9.3723e-05       3.5203
+
+# _SET7_  VARIABLE = telmisartan (set)
+# _SET7_  MODEL = 7
+# _SET7_  NGENES = 2
+# _SET7_  P-VALUE = 6.4596e-05
+_SET7_   GENE   CHR      START       STOP  NSNPS  NPARAM       N        ZSTAT            P  ZFITTED_BASE  ZRESID_BASE
+_SET7_   5468     3   12328349   12476355    661      81  146248        7.184   4.4627e-16    9.3723e-05        7.184
+_SET7_   185      3  148414658  148461290    209      42  147418     -0.40939      0.35357    9.3723e-05     -0.40948

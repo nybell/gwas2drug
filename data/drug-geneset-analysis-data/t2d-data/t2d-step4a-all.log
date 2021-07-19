@@ -1,0 +1,38 @@
+Welcome to MAGMA v1.09a (mac)
+Using flags:
+	--gene-results t2d-step2.genes.raw
+	--gene-covar lincs_sets.cov
+	--model direction-covar=positive
+	--out t2d-step4a-all
+
+Start time is 13:06:09, Wednesday 09 Jun 2021
+
+Reading file t2d-step2.genes.raw... 
+	18375 genes read from file
+Loading gene-level covariates...
+Reading file lincs_sets.cov... 
+	detected 1035 variables in file (using all)
+	found 1035 valid gene covariates, for 11616 genes defined in genotype data
+Processing missing values...
+	found 6759 genes not present in all input files: removing these from analysis
+	11616 genes remaining in analysis
+Preparing variables for analysis...
+	truncating Z-scores 3 points below zero or 6 standard deviations above the mean
+	truncating covariate values more than 5 standard deviations from the mean
+	total variables available for analysis: 1035 gene covariates
+
+Parsing model specifications...
+Inverting gene-gene correlation matrix...
+Performing regression analysis...
+	testing direction: one-sided, positive (sets), one-sided, positive (covar)
+	conditioning on internal variables:
+		gene size, log(gene size)
+		gene density, log(gene density)
+		sample size, log(sample size)
+		inverse mac, log(inverse mac)
+	analysing individual variables
+
+	analysing single-variable models (number of models: 1035)
+	writing results to file t2d-step4a-all.gsa.out
+
+End time is 13:06:26, Wednesday 09 Jun 2021 (elapsed: 00:00:17)

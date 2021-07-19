@@ -1,0 +1,35 @@
+Welcome to MAGMA v1.09a (mac)
+Using flags:
+	--bfile g1000_eur synonyms=0
+	--pval t2d_pval37-fix.txt ncol=NOBS
+	--gene-annot t2d-step1.genes.annot
+	--out t2d-step2
+
+Start time is 23:26:34, Monday 07 Jun 2021
+
+Loading PLINK-format data...
+Reading file g1000_eur.fam... 503 individuals read
+Reading file g1000_eur.bim... 22665064 SNPs read
+Preparing file g1000_eur.bed... 
+
+Reading SNP p-values from file t2d_pval37-fix.txt... 
+	detected 5 variables in file
+	using variable: SNP (SNP id)
+	using variable: P (p-value)
+	using variable: NOBS (sample size; discarding SNPs with N < 50)
+	read 21220188 lines from file, containing valid SNP p-values for 14430694 SNPs in data (68% of lines, 63.67% of SNPs in data)
+	WARNING: file contained 14235 SNP IDs with duplications
+	         dropped all occurrences of each from analysis
+	         writing list of duplicated IDs to supplementary log file
+Loading gene annotation from file t2d-step1.genes.annot... 
+	18428 gene definitions read from file
+	found 18375 genes containing valid SNPs in genotype data
+
+
+Starting gene analysis... 
+	using model: SNPwise-mean
+	writing gene analysis results to file t2d-step2.genes.out
+	writing intermediate output to file t2d-step2.genes.raw
+
+
+End time is 00:08:55, Tuesday 08 Jun 2021 (elapsed: 00:42:21)
